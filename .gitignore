@@ -1,0 +1,24 @@
+
+# Secrets and local runtime files
+.env
+.env.*
+!.env.example
+auth.json
+*.pem
+*.key
+*.p12
+*.pfx
+# Dependencies and generated files
+node_modules/
+vendor/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+*.log
+__pycache__/
+*.py[cod]
+.DS_Store
+.agents/
+.codex/
+.aws/
